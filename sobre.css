@@ -1,0 +1,31 @@
+body{
+
+    background-color:  rgb(16, 0, 80);
+    color: rgb(197, 188, 188);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#title{
+
+color: #A82223;
+font-size: 25px;
+
+}
+
+H2{
+
+    font-size: 30px;
+    line-height: 20px;
+
+}
+
+P{
+
+    font-size: 17px;
+    line-height: 20px;
+
+}
+

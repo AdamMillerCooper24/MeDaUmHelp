@@ -1,0 +1,85 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+
+body{
+
+    background-color: rgb(16, 0, 80);
+    color: #801;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+    
+    .search{
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 40px;
+    padding: 5px 10px;
+    color:rgb(244, 202, 136);
+    
+    }
+    
+    #searchInput{
+    
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    color: rgb(169, 169, 169);
+    
+    }
+    
+    
+    .search lahel{
+    
+    height: 20px;
+    
+    }
+    
+    
+    .card-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    
+    
+    .card{
+    
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #801;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 0 8px  rgb(77, 76, 76);
+    
+    }
+
+    button{
+
+        background-color: #800;
+        color: #ffffff;
+        padding: 5px;
+        margin-top: 15px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        
+    }
