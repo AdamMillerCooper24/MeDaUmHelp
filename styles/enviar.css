@@ -16,3 +16,14 @@ body{
    
 
 }
+
+
+.botao {
+    background-color: var(--fundo-cabeçalho);
+    width: 180px;   
+    height: 290px;  
+    border-radius: 12px;  
+    box-shadow: 4px 4px 12px #000; 
+    align-items: center;
+    margin: 30px;
+}
