@@ -1,0 +1,156 @@
+:root {
+    --cor-de-fundo: rgb(16, 0, 80);
+    --cor-letra-fundo: rgb(197, 188, 188);
+    --fundo-cabeçalho:rgb(214, 211, 211);
+    --vermelho:rgb(175, 31, 31);
+    --cor-inicio:  rgb(56, 58, 79);
+    --sombra: rgb(6, 20, 41);
+  }
+  
+  * {
+  
+      margin: 0;
+      padding: 0;
+  }
+  
+  body{
+  
+      background-color:var(--cor-de-fundo);
+      color: var(--cor-letra-fundo);
+      
+      
+  
+  }
+  
+  .container{
+  
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  
+  }
+  
+  
+  header{
+  
+      background-color: var(--fundo-cabeçalho);
+      color: var(--vermelho); 
+      width: 100%;
+      padding: 10px;
+      margin: 0px;
+  
+  }
+  
+  
+  .Bem-vindo{
+  
+      width: 40%;
+      font-size: 27px;
+  
+  }
+  
+  
+  .menu{
+  
+      width: 50%;
+  
+  }
+  
+  .menu nav a{
+  
+      color: var(--cor-inicio);
+      text-decoration: none;
+      padding: 550px;
+      font-size: 20px;
+  
+  }
+  
+  #perfil ul{
+      box-sizing: border-box;
+      list-style: none;
+      padding: 0;
+      background-color: var(--cor-de-fundo);
+  }
+  
+  #perfil ul li {
+      display: inline;
+      
+  
+  }
+  
+  #perfil ul li a {
+      color: #ffffff;
+      padding: 20px;
+      display: inline-block;
+      text-decoration: none;
+      transition: background .3s;
+      margin-left: 380px;
+      font-size: 20px;
+      
+      
+  }
+  
+  
+  #perfil ul li a:hover {
+      background-color: rgb(31, 0, 156);
+  }
+  
+  
+  #perfil ul li .pagina {
+    color: #78bcfc;
+    text-decoration: underline;
+  }
+
+
+
+.comeco  {
+    font-size: 40px;
+    margin-inline: 520px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+}
+
+
+
+.blocos {
+    background-color: rgb(5, 1, 41);
+    max-width: 100%;
+    margin: 1%;
+    border-radius: 60px;
+}
+
+
+
+.recomendações h3 {
+    box-sizing: border-box;
+    background-color: var(--fundo-cabeçalho);
+    color: var(--vermelho);
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 40px;
+    margin-inline: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-flow:row wrap;
+}
+
+.recomendações h1 {
+    box-sizing: border-box;
+    color: rgb(56, 58, 79);
+    font-size: 50px;
+    margin-inline: 520px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    text-align: center;
+}
