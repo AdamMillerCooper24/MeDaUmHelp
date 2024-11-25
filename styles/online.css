@@ -1,0 +1,322 @@
+:root {
+    --cor-de-fundo: rgb(16, 0, 80);
+    --cor-letra-fundo: rgb(197, 188, 188);
+    --fundo-cabeçalho:rgb(214, 211, 211);
+    --vermelho:rgb(175, 31, 31);
+    --cor-inicio:  rgb(56, 58, 79);
+    --sombra: rgb(6, 20, 41);
+  }
+  
+  * {
+  
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body{
+  
+      background-color:var(--cor-de-fundo);
+      color: var(--cor-letra-fundo);
+      
+      
+  
+  }
+  
+  .container{
+  
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  
+  }
+  
+  
+  header{
+  
+      background-color: var(--fundo-cabeçalho);
+      color: var(--vermelho); 
+      width: 100%;
+      padding: 10px;
+      margin: 0px;
+  
+  }
+  
+  
+  .Bem-vindo{
+  
+      width: 40%;
+      font-size: 27px;
+  
+  }
+  
+  
+  .menu{
+  
+      width: 50%;
+  
+  }
+  
+  .menu nav a{
+  
+      color: var(--cor-inicio);
+      text-decoration: none;
+      padding: 550px;
+      font-size: 20px;
+  
+  }
+  
+#perfil ul{
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+    
+}
+
+#perfil ul li {
+    display: inline;
+    
+
+}
+
+#perfil ul li a {
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    font-size: 20px;
+    margin-inline: 300px;
+    
+    
+}
+
+
+#perfil ul li a:hover {
+    background-color: rgb(31, 0, 156);
+}
+
+
+#perfil ul li .pagina {
+    color: #78bcfc;
+    text-decoration: underline;
+}
+
+
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.newpost {
+    width: 100%;
+    height: 240px;
+    margin: 50px 0;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--fundo-cabeçalho);
+    border-radius: 10px;
+    box-shadow: 1px 0 3px black;
+
+}
+
+
+div.newpost div.infouser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newpost div.infouser div.imguser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: pink;
+}
+
+div.newpost div.infouser strong {
+    font-size: 16px;
+    margin-left: 10px;
+    color: var(--vermelho);
+}
+
+div.newpost form.formpost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+div.newpost form.formpost textarea {
+    height: 90px;
+    background: red;
+    margin: 15px 0;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    border: 0;
+    outline: none;
+
+    font-weight: bold;
+    color: blue;
+}
+
+div.newpost form.formpost div.icons-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+div.newpost form.formpost div.icons-button div.icons {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+div.newpost form.formpost div.icons-button div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+
+div.newpost form.formpost div.icons-button button.btnSubmitForm{
+    background: gold;
+    padding: 10px 50px;
+    color: aquamarine;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+} 
+
+
+div.newpost form.formpost div.icons-button button.btnSubmitForm:hover {
+    background: red;
+}
+
+
+ul.posts li.post {
+    margin-bottom: 50px;
+    width: 100%;
+    background: pink;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px black;
+}
+
+
+ul.posts li.post div.infouserpost {
+    display: flex;
+    align-items: center;
+}
+
+
+ul.posts li.post div.infouserpost div.name-hour {
+    margin-left: 10px;
+}
+
+
+ul.posts li.post div.infouserpost div.imguserpost {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: greenyellow;
+}
+
+
+ul.posts li.post div.infouserpost div.name-hour >strong {
+    color: blue;
+}
+
+
+
+ul.posts li.post div.infouserpost div.name-hour >p {
+    color: yellow;
+    font-size: 12px;
+}
+
+
+
+ul.posts li.post >p {
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    color: brown;
+}
+
+
+
+ul.posts li.post div.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+
+ul.posts li.post div.actionBtnPost button.filespost {
+    padding: 5px 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    color: rgb(10, 51, 112);
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+
+ul.posts li.post div.actionBtnPost button.filespost img {
+    margin-right: 5px;
+}
+
+
+.save {
+    background: rgb(49, 60, 161);
+}
+
+
+.save:hover {
+    background: blueviolet;
+}
+
+
+.comment {
+    background: rgb(109, 39, 50);
+}
+
+
+.comment:hover {
+    background: blueviolet;
+}
+
+
+.share {
+    background: rgb(26, 145, 65);
+}
+
+
+.share:hover {
+    background: blueviolet;
+}
+
